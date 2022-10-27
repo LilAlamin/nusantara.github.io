@@ -1,0 +1,136 @@
+.solo1{
+    border: 1px solid lightgray;
+    opacity: 85%;
+    margin-top: -2%;
+    border-radius: 10px;
+}
+@keyframes solo{
+    0%{top: -10px;}
+    35%{top: 0px;}
+    50%{top: -10px;}
+    75%{top: 0px;}
+    100%{top: -10px;}
+}
+.solo1:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    opacity: 100%;
+    background-color: rgb(224, 224, 224);
+    position: relative;
+}
+.solo-text{
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.solo-text:hover{
+    transition: transform 0.5s;
+    transform: scale(0.9);
+    background-color: rgb(185, 185, 185);
+    color: rgb(22, 22, 22);
+}
+.solomargin{
+    margin-top: -6%;
+}
+.boro1{
+    border: 1px solid lightgray;
+    opacity: 85%;
+    margin-top: 1%;
+    border-radius: 10px;
+}
+.boro1:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    opacity: 100%;
+    background-color: rgb(224, 224, 224);
+    position: relative;
+}
+.boro-text{
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.boro-text:hover{
+    transition: transform 0.5s;
+    transform: scale(0.9);
+    background-color: rgb(185, 185, 185);
+    color: rgb(22, 22, 22);
+}
+.boromargin{
+    margin-top: 8%;
+}
+
+.bali1{
+    border: 1px solid lightgray;
+    opacity: 85%;
+    margin-top: 15%;
+    border-radius: 10px;
+}
+.bali1:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+    opacity: 100%;
+    background-color: rgb(224, 224, 224);
+    position: relative;
+}
+.bali-text{
+    border-radius: 20px;
+    margin-top: 5%;
+}
+.bali-text:hover{
+    transition: transform 0.5s;
+    transform: scale(0.9);
+    background-color: rgb(185, 185, 185);
+    color: rgb(22, 22, 22);
+}
+
+
+
+
+.pilihstyle{
+    width: 100%;
+    margin-top: -2%;
+    border-radius: 20px;
+}
+.pilihstyle:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+.col-md-4:hover{
+    transition: transform 0.5s;
+    transform: scale(0.9);
+    background-color: rgba(168, 168, 168, 0.308);
+    border-radius: 100%;
+}
+.selamat{
+    animation-name: solo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+.selamat:hover{
+    transition: transform 0.5s;
+    transform: scale(1.1);
+}
+
+@keyframes what{
+    0%{left: -15px;}
+    25%{right: 0px;}
+    50%{left: 15px;}
+    75%{right: 0px;}
+    100%{left: -15px;}
+}
+
+.kenapa{
+    animation-name: what;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+
+
+
+
+
